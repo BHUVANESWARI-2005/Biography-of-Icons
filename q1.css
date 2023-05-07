@@ -1,0 +1,30 @@
+
+body
+{
+background-image: url("https://i.pinimg.com/564x/7f/25/81/7f2581cfffcd6c17207e71b88f5223d7.jpg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+background-color:orange;
+}
+p
+{
+font-size:30px;
+font-style:italic;
+color:blue;
+}
+h1{
+color:red;
+font-size:30px;
+font-style:italic;
+}
+h2{
+color:orange;
+font-size:50px;
+font-style:italic;
+}
+h4{
+color:deeppink;
+font-size:50px;
+font-style:italic;}
+

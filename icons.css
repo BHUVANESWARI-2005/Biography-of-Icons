@@ -1,0 +1,73 @@
+
+body
+{
+background-image: url("https://i.pinimg.com/564x/7f/25/81/7f2581cfffcd6c17207e71b88f5223d7.jpg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+color:red;
+}
+p
+{
+font-size:30px;
+font-style:italic;
+}
+h1{
+color:red;
+font-size:100px;
+font-style:italic;
+}
+h2{
+color:orange;
+font-size:50px;
+font-style:italic;
+}
+h4{
+color:brown;
+font-size:100px;
+font-style:italic;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:FF007F;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: red}
+
+.button:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 70%;
+   }
+ 
+  
+
